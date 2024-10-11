@@ -30,8 +30,8 @@ export default function AboutMe() {
         </BreadcrumbList>
       </Breadcrumb>
 
-        <h1 className = "px-5">
-        <h2 className="text-3xl font-bold text-[#000000]">About me</h2>
+        <div className = "px-5">
+        <div className="text-3xl font-bold text-[#000000]">About me</div>
       <Image
         src = {photo}
         alt = "test image"
@@ -41,7 +41,7 @@ export default function AboutMe() {
       <div className= "flex gap-2"> <p className= "font-bold" >Name :</p> Dylan</div>
       <div className= "flex gap-2"> <p className= "font-bold" >Major :</p> CS (Y2)</div>
       <div className= "flex gap-2"> <p className= "font-bold" >Why Heartcode:</p> the lols</div>
-        </h1>
+        </div>
 
 
     </main>
